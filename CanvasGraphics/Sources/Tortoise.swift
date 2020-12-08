@@ -406,9 +406,11 @@ public class Tortoise: CustomPlaygroundDisplayConvertible {
     public func endFill() {
         
         c.translate(to: Point(x: -self.state.position.x, y: -self.state.position.y))
+        c.rotate(by: -self.state.heading)
         c.drawCustomShape(with: self.state.verticesForCurrentFill)
         self.state.filling = false
         self.state.verticesForCurrentFill = []
+        c.rotate(by: self.state.heading)
         c.translate(to: Point(x: self.state.position.x, y: self.state.position.y))
 
     }

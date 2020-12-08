@@ -45,8 +45,6 @@ turtle.left(by: 90)
 
 //start drawing star
 func drawStar() {
-    
-    turtle.beginFill()
     turtle.penDown()
     turtle.right(by: 120)
     turtle.forward(steps: 50)
@@ -67,483 +65,144 @@ func drawStar() {
     turtle.right(by: 60)
     turtle.forward(steps: 50)
     turtle.right(by: 120)
-    turtle.endFill()
+}
+
+for _ in 1...4 {
+    drawStar()
+    
+    //get into position
+    turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
+    turtle.right(by: 90)
 }
 
 drawStar()
 
-//get into position
+//get ready to draw another colum
 turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
 turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
+turtle.forward(steps: 300)
 turtle.right(by: 90)
+turtle.forward(steps: 525)
+turtle.left(by: 180)
 
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-    //get ready to draw another colum
+for _ in 1...5 {
+    drawStar()
+    
+    //get into position
     turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
     turtle.right(by: 90)
-    turtle.forward(steps: 300)
-    turtle.right(by: 90)
-    turtle.forward(steps: 525)
-    turtle.left(by: 180)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-        //get ready to draw another colum
-        turtle.penUp()
-        turtle.right(by: 90)
-        turtle.forward(steps: 343)
-        turtle.right(by: 90)
-        turtle.forward(steps: 650)
-        turtle.left(by: 180)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-    //get ready to draw another colum
-    turtle.penUp()
-    turtle.right(by: 90)
-    turtle.forward(steps: 430)
-    turtle.right(by: 90)
-    turtle.forward(steps: 900)
-    turtle.left(by: 180)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-    //get ready to draw another colum
-    turtle.penUp()
-    turtle.right(by: 90)
-    turtle.forward(steps: 430)
-    turtle.right(by: 90)
-    turtle.forward(steps: 900)
-    turtle.left(by: 180)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-    //get ready to draw another colum
-    turtle.penUp()
-    turtle.right(by: 90)
-    turtle.forward(steps: 430)
-    turtle.right(by: 90)
-    turtle.forward(steps: 900)
-    turtle.left(by: 180)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
+}
 
 drawStar()
 
 //get ready to draw another colum
+turtle.penUp()
+turtle.right(by: 90)
+turtle.forward(steps: 343)
+turtle.right(by: 90)
+turtle.forward(steps: 650)
+turtle.left(by: 180)
+
+for _ in 1...7 {
+    drawStar()
+    
+    //get into position
     turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
     turtle.right(by: 90)
-    turtle.forward(steps: 430)
+}
+
+drawStar()
+
+//get ready to draw another colum
+turtle.penUp()
+turtle.right(by: 90)
+turtle.forward(steps: 430)
+turtle.right(by: 90)
+turtle.forward(steps: 900)
+turtle.left(by: 180)
+
+for _ in 1...5 {
+    drawStar()
+    
+    //get into position
+    turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
     turtle.right(by: 90)
-    turtle.forward(steps: 900)
-    turtle.left(by: 180)
+}
 
 drawStar()
 
-//get into position
+//get ready to draw another colum
 turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
 turtle.right(by: 90)
+turtle.forward(steps: 430)
+turtle.right(by: 90)
+turtle.forward(steps: 900)
+turtle.left(by: 180)
+
+for _ in 1...7 {
+    drawStar()
+    
+    //get into position
+    turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
+    turtle.right(by: 90)
+}
 
 drawStar()
 
-//get into position
+//get ready to draw another colum
 turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
 turtle.right(by: 90)
+turtle.forward(steps: 430)
+turtle.right(by: 90)
+turtle.forward(steps: 900)
+turtle.left(by: 180)
+
+for _ in 1...7 {
+    drawStar()
+    
+    //get into position
+    turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
+    turtle.right(by: 90)
+}
 
 drawStar()
 
-//get into position
+//get ready to draw another colum
 turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
 turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
+turtle.forward(steps: 430)
 turtle.right(by: 90)
+turtle.forward(steps: 900)
+turtle.left(by: 180)
 
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
-
-drawStar()
-
-//get into position
-turtle.penUp()
-turtle.forward(steps: 125)
-turtle.left(by: 90)
-turtle.forward(steps: 43)
-turtle.right(by: 90)
+for _ in 1...11 {
+    drawStar()
+    
+    //get into position
+    turtle.penUp()
+    turtle.forward(steps: 125)
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
+    turtle.right(by: 90)
+}
 
 canvas.highPerformance = false
 
