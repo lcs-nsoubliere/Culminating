@@ -143,11 +143,7 @@ drawArrow()
 
 
 
-
-
-
-turtle.drawSelf()
-
+turtle.copySVGToClipboard()
 /*:
  ## Show the Assistant Editor
  Don't see any results?
