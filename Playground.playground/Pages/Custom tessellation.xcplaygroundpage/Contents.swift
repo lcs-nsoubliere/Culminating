@@ -46,24 +46,25 @@ turtle.left(by: 90)
 //start drawing star
 func drawStar() {
     turtle.penDown()
+    turtle.beginFill()
     turtle.right(by: 120)
     turtle.forward(steps: 50)
     turtle.left(by: 60)
     turtle.forward(steps: 50)
     
-//    //start to draw the trianlge in the middle
-//    turtle.left(by: 60)
-//    turtle.forward(steps: 50)
-//    turtle.left(by: 120)
-//    turtle.forward(steps: 50)
-//    turtle.left(by: 120)
-//    turtle.forward(steps: 100) // end of trianlge
-//
-
-    //if you dont want triangle use these 2 extra lines if you are using triangle take em out
-    turtle.right(by: 60)
+    //start to draw the trianlge in the middle
+    turtle.left(by: 60)
     turtle.forward(steps: 50)
-   
+    turtle.left(by: 120)
+    turtle.forward(steps: 50)
+    turtle.left(by: 120)
+    turtle.forward(steps: 100) // end of trianlge
+    
+    
+//        //if you dont want triangle use these 2 extra lines if you are using triangle take em out
+//        turtle.right(by: 60)
+//        turtle.forward(steps: 50)
+    
     
     turtle.left(by: 120)
     turtle.forward(steps: 50)
@@ -78,6 +79,7 @@ func drawStar() {
     turtle.right(by: 60)
     turtle.forward(steps: 50)
     turtle.right(by: 120)
+    turtle.endFill()
 }
 
 
@@ -271,7 +273,7 @@ for _ in 1...11 {
 //}
 
 
-
+turtle.penUp()
 turtle.goToHome()
 
 canvas.highPerformance = false
