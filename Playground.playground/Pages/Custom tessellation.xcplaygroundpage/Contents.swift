@@ -50,14 +50,20 @@ func drawStar() {
     turtle.forward(steps: 50)
     turtle.left(by: 60)
     turtle.forward(steps: 50)
-  
-    //start to draw the trianlge in the middle
-    turtle.left(by: 60)
+    
+//    //start to draw the trianlge in the middle
+//    turtle.left(by: 60)
+//    turtle.forward(steps: 50)
+//    turtle.left(by: 120)
+//    turtle.forward(steps: 50)
+//    turtle.left(by: 120)
+//    turtle.forward(steps: 100) // end of trianlge
+//
+
+    //if you dont want triangle use these 2 extra lines if you are using triangle take em out
+    turtle.right(by: 60)
     turtle.forward(steps: 50)
-    turtle.left(by: 120)
-    turtle.forward(steps: 50)
-    turtle.left(by: 120)
-    turtle.forward(steps: 100) // end of trianlge
+   
     
     turtle.left(by: 120)
     turtle.forward(steps: 50)
@@ -72,16 +78,12 @@ func drawStar() {
     turtle.right(by: 60)
     turtle.forward(steps: 50)
     turtle.right(by: 120)
-    turtle.drawSelf()
-
 }
-
-drawStar()
 
 
 for _ in 1...4 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -92,7 +94,7 @@ for _ in 1...4 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 300)
@@ -102,7 +104,7 @@ turtle.left(by: 180)
 
 for _ in 1...5 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -113,7 +115,7 @@ for _ in 1...5 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 343)
@@ -123,7 +125,7 @@ turtle.left(by: 180)
 
 for _ in 1...7 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -134,7 +136,7 @@ for _ in 1...7 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 430)
@@ -144,7 +146,7 @@ turtle.left(by: 180)
 
 for _ in 1...5 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -155,7 +157,7 @@ for _ in 1...5 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 430)
@@ -165,7 +167,7 @@ turtle.left(by: 180)
 
 for _ in 1...7 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -176,7 +178,7 @@ for _ in 1...7 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 430)
@@ -186,7 +188,7 @@ turtle.left(by: 180)
 
 for _ in 1...7 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -197,7 +199,7 @@ for _ in 1...7 {
 
 drawStar()
 
-//get ready to draw another colum
+//get ready to draw another colum of stars
 turtle.penUp()
 turtle.right(by: 90)
 turtle.forward(steps: 430)
@@ -207,7 +209,7 @@ turtle.left(by: 180)
 
 for _ in 1...11 {
     drawStar()
-
+    
     //get into position
     turtle.penUp()
     turtle.forward(steps: 125)
@@ -216,22 +218,61 @@ for _ in 1...11 {
     turtle.right(by: 90)
 }
 
+////start doing colums
+//turtle.goToHome()
+//turtle.penDown()
+//
+////colum 1
+//turtle.forward(steps: 43)
+//turtle.left(by: 90)
+//turtle.forward(steps: 600)
+//
+//for _ in 1...7 {
+//
+//    //colum down
+//    turtle.right(by: 90)
+//    turtle.forward(steps: 43)
+//    turtle.right(by: 90)
+//    turtle.forward(steps: 600)
+//
+//    //colum up
+//    turtle.left(by: 90)
+//    turtle.forward(steps: 43)
+//    turtle.left(by: 90)
+//    turtle.forward(steps: 600)
+//
+//}
+//
+////start doing rows
+//turtle.penUp()
+//turtle.goToHome()
+//turtle.penDown()
+//
+////row 1
+//turtle.left(by: 90)
+//turtle.forward(steps: 25)
+//turtle.right(by: 90)
+//turtle.forward(steps: 600)
+//
+//for _ in 1...7 {
+//    //row left
+//    turtle
+//    turtle.left(by: 90)
+//    turtle.forward(steps: 50)
+//    turtle.left(by: 90)
+//    turtle.forward(steps: 600)
+//
+//    //row right
+//    turtle.right(by: 90)
+//    turtle.forward(steps: 50)
+//    turtle.right(by: 90)
+//    turtle.forward(steps: 600)
+//
+//}
+
+
+
+turtle.goToHome()
+
 canvas.highPerformance = false
-
-turtle.drawSelf()
 //turtle.copySVGToClipboard()
-/*:
- ## Show the Assistant Editor
- Don't see any results?
-
- Remember to show the Assistant Editor (1), and then switch to Live View (2):
-
- ![timeline](timeline.png "Timeline")
-
- ## Use source control
- To keep your work organized, receive feedback, and earn a high grade in this course, regular use of source control is a must.
-
- Please commit and push your work often.
-
- ![source_control](source-control.png "Source Control")
- */
