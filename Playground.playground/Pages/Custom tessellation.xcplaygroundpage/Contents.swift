@@ -220,57 +220,57 @@ for _ in 1...11 {
     turtle.right(by: 90)
 }
 
-////start doing colums
-//turtle.goToHome()
-//turtle.penDown()
-//
-////colum 1
-//turtle.forward(steps: 43)
-//turtle.left(by: 90)
-//turtle.forward(steps: 600)
-//
-//for _ in 1...7 {
-//
-//    //colum down
-//    turtle.right(by: 90)
-//    turtle.forward(steps: 43)
-//    turtle.right(by: 90)
-//    turtle.forward(steps: 600)
-//
-//    //colum up
-//    turtle.left(by: 90)
-//    turtle.forward(steps: 43)
-//    turtle.left(by: 90)
-//    turtle.forward(steps: 600)
-//
-//}
-//
-////start doing rows
-//turtle.penUp()
-//turtle.goToHome()
-//turtle.penDown()
-//
-////row 1
-//turtle.left(by: 90)
-//turtle.forward(steps: 25)
-//turtle.right(by: 90)
-//turtle.forward(steps: 600)
-//
-//for _ in 1...7 {
-//    //row left
-//    turtle
-//    turtle.left(by: 90)
-//    turtle.forward(steps: 50)
-//    turtle.left(by: 90)
-//    turtle.forward(steps: 600)
-//
-//    //row right
-//    turtle.right(by: 90)
-//    turtle.forward(steps: 50)
-//    turtle.right(by: 90)
-//    turtle.forward(steps: 600)
-//
-//}
+//start doing colums across the canvas
+turtle.goToHome()
+turtle.penDown()
+
+//colum 1
+turtle.forward(steps: 43)
+turtle.left(by: 90)
+turtle.forward(steps: 600)
+
+for _ in 1...7 {
+
+    //colum down
+    turtle.right(by: 90)
+    turtle.forward(steps: 43)
+    turtle.right(by: 90)
+    turtle.forward(steps: 600)
+
+    //colum up
+    turtle.left(by: 90)
+    turtle.forward(steps: 43)
+    turtle.left(by: 90)
+    turtle.forward(steps: 600)
+
+}
+
+//start doing rows
+turtle.penUp()
+turtle.goToHome()
+turtle.penDown()
+
+//row 1
+turtle.left(by: 90)
+turtle.forward(steps: 25)
+turtle.right(by: 90)
+turtle.forward(steps: 600)
+
+for _ in 1...7 {
+    //row left
+    turtle
+    turtle.left(by: 90)
+    turtle.forward(steps: 50)
+    turtle.left(by: 90)
+    turtle.forward(steps: 600)
+
+    //row right
+    turtle.right(by: 90)
+    turtle.forward(steps: 50)
+    turtle.right(by: 90)
+    turtle.forward(steps: 600)
+
+}
 
 
 turtle.penUp()
